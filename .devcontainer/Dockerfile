@@ -57,6 +57,7 @@ RUN export DEBIAN_FRONTEND=noninteractive \
     && useradd -s /bin/bash -u ${USER_UID} -g users -G sudo -d /home/$USERNAME -m  -c "Developer" ${USERNAME} \
     && echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME \
     && chmod 0440 /etc/sudoers.d/$USERNAME \
+    && echo "Set disable_coredump false" >> /etc/sudo.conf \ 
     && echo Done.
 
 RUN export DEBIAN_FRONTEND=noninteractive \
