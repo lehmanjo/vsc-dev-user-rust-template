@@ -46,7 +46,12 @@ ENV TZ="Asia/Hong_Kong"
 
 ![Using Template](/README_image_03.png)
 
+Create a new repository using the template.
+
 ![Using Template](/README_image_04.png)
+
+New repository name becomes the directory name and therefore also the default rust package name.
 
 ![Using Template](/README_image_05.png)
 
+Initialize directory using ``cargo init --vcs git``
