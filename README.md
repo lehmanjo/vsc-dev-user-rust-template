@@ -38,20 +38,43 @@ ARG REPO="hk.archive"
 ENV TZ="Asia/Hong_Kong"
 ```
 
+<br />
+<br />
+
 # Launch Codespaces
 
 ![Using Codespace](/README_image_02.png)
 
+<br />
+<br />
+
 # How to use template
+
+blah
+
+### Create a new repository
+Press `Use this template` to create a new repository from the template.
 
 ![Using Template](/README_image_03.png)
 
-Create a new repository using the template.
+---
+
+<br />
+
+### New repository name becomes the directory name and therefore also the default rust package name
+
+blah
 
 ![Using Template](/README_image_04.png)
 
-New repository name becomes the directory name and therefore also the default rust package name.
+---
+
+<br />
+
+### Initialize directory using ``cargo init --vcs git`` [[cargo init]](https://doc.rust-lang.org/cargo/commands/cargo-init.html)
+
+blah
 
 ![Using Template](/README_image_05.png)
 
-Initialize directory using ``cargo init --vcs git`` [[cargo init]](https://doc.rust-lang.org/cargo/commands/cargo-init.html)
+<br />
