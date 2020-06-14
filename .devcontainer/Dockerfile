@@ -18,7 +18,7 @@ ARG USER_UID=1028
 ARG DEBIAN_FRONTEND=noninteractive
 ENV DEBIAN_FRONTEND=noninteractive
 COPY bash_aliases /etc/skel/.bash_aliases
-COPY --chown=${USER_UID}:${USER_GID} user_install.sh /tmp/user_install.sh   
+COPY --chown=${USER_UID}:users user_install.sh /tmp/user_install.sh   
 
 #-------------------------------------------------------------------------------------------------------------
 
