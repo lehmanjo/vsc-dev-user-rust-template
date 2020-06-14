@@ -24,7 +24,7 @@ test                latest                                  About a minute ago  
 
 ## Customization
 
-You can lookup valid linux timezones [here](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
+You can lookup valid linux timezones [here](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).  Ubuntu country mirrors are described [here](https://wiki.ubuntu.com/Mirrors#Country_mirror_requirements).
 
 ### Example: Default
 ```
