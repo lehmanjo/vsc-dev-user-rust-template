@@ -55,6 +55,8 @@ RUN export DEBIAN_FRONTEND=noninteractive \
     && echo " Adding User: ${USERNAME}" \
     && echo "-------------------------------------------------------------" \
     && useradd -s /bin/bash -u ${USER_UID} -g users -G sudo -d /home/$USERNAME -m  -c "Developer" ${USERNAME} \
+    && echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME \
+    && chmod 0440 /etc/sudoers.d/$USERNAME \
     && echo Done.
 
 RUN export DEBIAN_FRONTEND=noninteractive \
