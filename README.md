@@ -54,4 +54,4 @@ New repository name becomes the directory name and therefore also the default ru
 
 ![Using Template](/README_image_05.png)
 
-Initialize directory using ``cargo init --vcs git``
+Initialize directory using ``cargo init --vcs git`` [[cargo init]](https://doc.rust-lang.org/cargo/commands/cargo-init.html)
