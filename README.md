@@ -41,3 +41,8 @@ ENV TZ="Asia/Hong_Kong"
 ## Launch Codespaces
 
 ![Using Codespace](/README_image_02.png)
+
+## How to use template
+
+![Using Template](/README_image_03.png)
+
