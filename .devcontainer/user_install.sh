@@ -8,7 +8,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 ~/.cargo/bin/rustup self update 
 ~/.cargo/bin/rustup component add rls rust-analysis 
 ~/.cargo/bin/rustup completions bash > ~/.rustup_completions_bash 
-echo 'export PATH="~/.cargo/bin:$PATH"' >> ~/.bashrc 
+echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.bashrc  
 echo '. ~/.rustup_completions_bash' >> ~/.bashrc 
 
 # Remove container hostname from prompt
