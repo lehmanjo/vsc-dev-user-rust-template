@@ -50,9 +50,7 @@ ENV TZ="Asia/Hong_Kong"
 
 # How to use template
 
-blah
-
-### Create a new repository
+### Use this template
 Press `Use this template` to create a new repository from the template.
 
 ![Using Template](/README_image_03.png)
@@ -61,9 +59,9 @@ Press `Use this template` to create a new repository from the template.
 
 <br />
 
-### New repository name becomes the directory name and therefore also the default rust package name
+### Create a new repository
 
-blah
+The new repository name becomes the directory name and therefore also the default rust package name.
 
 ![Using Template](/README_image_04.png)
 
@@ -71,9 +69,9 @@ blah
 
 <br />
 
-### Initialize directory using ``cargo init --vcs git`` [[cargo init]](https://doc.rust-lang.org/cargo/commands/cargo-init.html)
+### Cargo Init 
 
-blah
+Initialize directory using `cargo init --vcs git` [[cargo init]](https://doc.rust-lang.org/cargo/commands/cargo-init.html)
 
 ![Using Template](/README_image_05.png)
 
