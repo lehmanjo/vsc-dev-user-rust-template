@@ -3,7 +3,7 @@ Visual Studio Codespace for Rust Development on Ubuntu (as non-root user)
 
 ![Create Codespace](/README_image_01.png)
 
-Visit https://online.visualstudio.com/environments and create a new codespace as shown above.
+Visit https://online.visualstudio.com/environments and create a new codespace as shown above.  Read about Microsoft container templates [here](https://github.com/microsoft/vscode-dev-containers).
 
 ## Contents
 * Ubuntu 20.04 LTS
