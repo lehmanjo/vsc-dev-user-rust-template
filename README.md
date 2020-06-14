@@ -1,5 +1,5 @@
 # vsc-dev-user-rust-template 
-Visual Studio Codespace for Rust Development on Ubuntu
+Visual Studio Codespace for Rust Development on Ubuntu (as non-root user)
 
 ![Create Codespace](/README_image_01.png)
 
