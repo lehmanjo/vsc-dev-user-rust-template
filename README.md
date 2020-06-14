@@ -61,7 +61,7 @@ Press `Use this template` to create a new repository from the template.
 
 ### Create a new repository
 
-The new repository name becomes the directory name and therefore also the default rust package name.
+The `new repository name` becomes the directory name and therefore also the default rust package name.
 
 ![Using Template](/README_image_04.png)
 
@@ -71,7 +71,7 @@ The new repository name becomes the directory name and therefore also the defaul
 
 ### Cargo Init 
 
-Initialize directory using `cargo init --vcs git` [[cargo init]](https://doc.rust-lang.org/cargo/commands/cargo-init.html)
+Initialize using `cargo init --vcs git` [[cargo init]](https://doc.rust-lang.org/cargo/commands/cargo-init.html)
 
 ![Using Template](/README_image_05.png)
 
