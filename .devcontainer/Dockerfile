@@ -36,7 +36,7 @@ RUN export DEBIAN_FRONTEND=noninteractive \
     && echo "-------------------------------------------------------------" \
     && echo " Installing Misc. Packages" \
     && echo "-------------------------------------------------------------" \
-    && apt-get install -y apt-utils dialog locales tzdata sudo bash vim dos2unix \
+    && apt-get install -y apt-utils dialog locales tzdata sudo bash vim dos2unix mlocate \
     && apt-get install -y curl wget \
     && apt-get install -y openssh-client \
     && echo "-------------------------------------------------------------" \
@@ -63,5 +63,6 @@ RUN export DEBIAN_FRONTEND=noninteractive \
     && echo "-------------------------------------------------------------" \
     && su - ${USERNAME} -c "/bin/bash /tmp/user_install.sh" \
     && rm -f /tmp/user_install.sh \
+    && updatedb \
     && echo Done.
     
