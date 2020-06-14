@@ -37,3 +37,7 @@ ENV TZ="America/New_York"
 ARG REPO="hk.archive"
 ENV TZ="Asia/Hong_Kong"
 ```
+
+## Launch Codespaces
+
+![Using Codespace](/README_image_02.png)
