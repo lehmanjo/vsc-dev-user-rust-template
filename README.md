@@ -76,3 +76,9 @@ Initialize using `cargo init --vcs git` [[cargo init]](https://doc.rust-lang.org
 ![Using Template](/README_image_05.png)
 
 <br />
+
+
+
+# TODO
+
+https://code.visualstudio.com/docs/editor/integrated-terminal (shellarg -l)
