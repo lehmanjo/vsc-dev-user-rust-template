@@ -16,7 +16,7 @@ ARG USER_UID=1028
 #-------------------------------------------------------------------------------------------------------------
 
 ARG DEBIAN_FRONTEND=noninteractive
-ENV DEBIAN_FRONTEND=noninteractive
+# ENV DEBIAN_FRONTEND=noninteractive
 COPY bash_aliases /etc/skel/.bash_aliases
 COPY --chown=${USER_UID}:users user_install.sh /tmp/user_install.sh   
 
@@ -34,7 +34,7 @@ RUN export DEBIAN_FRONTEND=noninteractive \
     && echo "-------------------------------------------------------------" \
     && echo " Installing Misc. Packages" \
     && echo "-------------------------------------------------------------" \
-    && apt-get install -y apt-utils dialog locales tzdata sudo bash vim dos2unix mlocate \
+    && apt-get install -y apt-utils dialog locales tzdata sudo bash vim dos2unix mlocate zip \
     && apt-get install -y curl wget \
     && apt-get install -y openssh-client \
     && echo "-------------------------------------------------------------" \
@@ -66,4 +66,5 @@ RUN export DEBIAN_FRONTEND=noninteractive \
     && rm -f /tmp/user_install.sh \
     && updatedb \
     && echo Done.
-    
+
+USER $USERNAME

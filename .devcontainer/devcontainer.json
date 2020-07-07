@@ -9,7 +9,11 @@
 	// Set *default* container specific settings.json values on container create.
 	"settings": {
 		"terminal.integrated.shell.linux": "/bin/bash",
-		"lldb.executable": "/usr/bin/lldb"
+		"lldb.executable": "/usr/bin/lldb",
+		"terminal.integrated.shellArgs.linux": ["-l"],
+		"rust-client.channel": "stable",
+		"rust-client.rustupPath": "/home/vscode/.cargo/bin/rustup",
+		"explorer.openEditors.visible": 0
 	},
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
@@ -22,5 +26,6 @@
 		"serayuzgur.crates",
 		"Swellaby.vscode-rust-test-adapter"
 	],
-	"remoteUser": "vscode"
+	"remoteUser": "vscode",
+	"containerUser": "vscode"
 }
